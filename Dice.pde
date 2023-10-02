@@ -8,7 +8,7 @@ void setup()
 }
 void draw()
 {
-  background(25, 25, 112);
+  
   int sum = 0;
   for (int y = 50; y <=700; y=y+250){
     for (int x = 100; x <= 800; x = x+300){
@@ -41,6 +41,7 @@ void draw()
   }
   textSize(25);
   text("Total dice value:"+ sum, 400, 800);
+  background(25, 25, 112);
   
 }
 void mousePressed()
