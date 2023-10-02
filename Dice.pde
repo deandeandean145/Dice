@@ -2,7 +2,6 @@ Die first;
 void setup()
 {
   noLoop();
-  background(250);
   size(1000,1000);
   first = new Die(200,200);
   
