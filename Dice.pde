@@ -10,7 +10,7 @@ void draw()
 {
   background(250);
   int sum = 0;
-  for (int y = 100; y <=500; y=y+300){
+  for (int y = 50; y <=700; y=y+250){
     for (int x = 100; x <= 800; x = x+300){
       Die first = new Die(x,y);
       first.roll();
