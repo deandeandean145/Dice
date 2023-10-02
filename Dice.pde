@@ -8,6 +8,7 @@ void setup()
 }
 void draw()
 {
+  background(250);
   int sum = 0;
   for (int y = 100; y <=500; y=y+300){
     for (int x = 100; x <= 800; x = x+300){
