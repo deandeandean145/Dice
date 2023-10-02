@@ -1,8 +1,7 @@
 Die first;
 void setup()
 {
-  size(1000,1000);
-  noLoop();
+  createCanvas(1000,1000);
   first = new Die(200,200);
   
 }
